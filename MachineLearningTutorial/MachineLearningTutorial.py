@@ -31,7 +31,7 @@ tree.export_graphviz(model, graphOutName,
                      label = 'all', 
                      rounded = True, 
                      filled = True)
-print('Saved model graphic to ' + modelOutName)
+print('Saved model graphic to ' + graphOutName)
 
 # Predict and score
 predictions = model.predict(X_test.values)
